@@ -1,16 +1,14 @@
 ﻿using System;
+using tabuleiro;
 
 namespace xadrez_aula {
     class Program {
         static void Main(string[] args) {
 
-            Console.Write("Digite um valor inteiro: ");
-            
-            int x = int.Parse(Console.ReadLine());
+            Posicao p;
+            p = new Posicao(1, 2);
 
-            int y = 3 * x;
-
-            Console.WriteLine("TRIPLO = " + y);
+            Console.WriteLine("Posicao = " + p);
 
             Console.ReadLine();
         }
