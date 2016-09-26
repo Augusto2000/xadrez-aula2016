@@ -5,10 +5,7 @@ namespace xadrez_aula {
     class Program {
         static void Main(string[] args) {
 
-            Posicao p;
-            p = new Posicao(1, 2);
-
-            Console.WriteLine("Posicao = " + p);
+            Tabuleiro tab = new Tabuleiro(8, 8);
 
             Console.ReadLine();
         }
